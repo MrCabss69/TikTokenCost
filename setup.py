@@ -8,8 +8,8 @@ setup(
         "tiktoken",
         "requests"
     ],
-    author="Tu Nombre",
-    author_email="tu_email@example.com",
+    author="@MrCaabs69",
+    author_email="",
     description="Module to estimate inference and training costs with each OpenAI model, over certain texts.",
     keywords="openai tiktoken cost calculator",
 )

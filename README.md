@@ -1,8 +1,34 @@
 # TikTokenCost
-TikCost module is designed to provide users with estimated costs for inference and training using OpenAI's public models. Leveraging a combination of tiktoken and a comprehensive dictionary that reflects the latest OpenAI API pricing, this module offers a straightforward solution for managing and forecasting your OpenAI-related expenses.
+TikCost module is designed to provide users with estimated costs for inference and training using OpenAI's public models. Leveraging a combination of tiktoken and a comprehensive dictionary that reflects the latest OpenAI API pricing, this module offers a simple solution for managing and forecasting your OpenAI-related expenses.
 
 
-## Features
-- Tiktoken Support: Utilize tiktoken for accurate token number calculation.
+##Features
+- Tiktoken Support: Use tiktoken for accurate token number calculation.
 - Cost Estimation: Calculate the estimated costs for using various OpenAI models for inference and training purposes, based on the model and the token number on the given text.
 - Updated Pricing Dictionary: Access a fixed dictionary that is regularly updated to reflect the most current OpenAI API pricing.
+
+
+## Installing
+
+```bash
+pip install tiktokencost
+```
+
+## Basic Use
+
+Here is a basic example of how to use TikTokenCost to estimate the cost of an input text with the GPT-3 model:
+
+
+```python
+from tiktokencost import CostCalculator
+
+# Initialize the cost calculator with the desired model
+cost_calculator = CostCalculator("gpt-3")
+
+# Text for which to estimate the cost
+input_text = "Example text to estimate the cost."
+
+# Calculate cost
+cost = cost_calculator.estimate_cost(text=input_text, request_type="input")
+print(f"Estimated cost: ${cost:.2f}")
+```
