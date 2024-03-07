@@ -1,0 +1,101 @@
+[
+    {
+        "name": "gpt-4-turbo",
+        "options": [
+            {"type": "input", "price": 10.00},
+            {"type": "output", "price": 30.00}
+        ]
+    },
+    {
+        "name": "gpt-4",
+        "options": [
+            {"type": "input", "price": 30.00},
+            {"type": "output", "price": 60.00}
+        ]
+    },
+    {
+        "name": "gpt-4-32k",
+        "options": [
+            {"type": "input", "price": 60.00},
+            {"type": "output", "price": 120.00}
+        ]
+    },
+    {
+        "name": "gpt-3.5-turbo",
+        "options": [
+            {"type": "input", "price": 0.50},
+            {"type": "output", "price": 1.50},
+            {"type": "training", "price": 3.00}
+        ]
+    },
+    {
+        "name": "gpt-3.5-turbo-instruct",
+        "options": [
+            {"type": "input", "price": 1.50},
+            {"type": "output", "price": 2.00}
+        ]
+    },
+    {
+        "name": "davinci-002",
+        "options": [
+            {"type": "input", "price": 6.00},
+            {"type": "output", "price": 12.00},
+            {"type": "training", "price": 12.00},
+            {"type": "base", "price": 2.00}
+        ]
+    },
+    {
+        "name": "babbage-002",
+        "options": [
+            {"type": "input", "price": 0.40},
+            {"type": "output", "price": 1.60},
+            {"type": "training", "price": 1.60},
+            {"type": "base", "price": 0.40}
+        ]
+    },
+    {
+        "name": "text-embedding-3-small",
+        "options": [
+            {"type": "input", "price": 0.02}
+        ]
+    },
+    {
+        "name": "text-embedding-3-large",
+        "options": [
+            {"type": "input", "price": 0.13}
+        ]
+    },
+    {
+        "name": "ada-v2",
+        "options": [
+            {"type": "input", "price": 0.10}
+        ]
+    },
+    {
+        "name": "dalle",
+        "options": [
+            {"type": "standard-1024x1024", "price": 0.040},
+            {"type": "standard-large", "price": 0.080},
+            {"type": "hd-1024x1024", "price": 0.080},
+            {"type": "hd-large", "price": 0.120}
+        ]
+    },
+    {
+        "name": "whisper",
+        "options": [
+            {"type": "input", "price": 0.006}
+        ]
+    },
+    {
+        "name": "tts",
+        "options": [
+            {"type": "input", "price": 15.00}
+        ]
+    },
+    {
+        "name": "tts-hd",
+        "options": [
+            {"type": "input", "price": 30.00}
+        ]
+    }
+]

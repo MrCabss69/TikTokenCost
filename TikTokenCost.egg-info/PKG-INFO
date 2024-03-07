@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: TikTokenCost
+Version: 0.3
+Summary: Module to estimate inference and training costs with each OpenAI model, over certain texts.
+Author: Tu Nombre
+Author-email: tu_email@example.com
+Keywords: openai tiktoken cost calculator
