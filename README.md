@@ -15,8 +15,9 @@ pip install tiktokencost
 ```
 
 ## Basic Use
+First, you want to change the path on 'https://github.com/MrCabss69/TikTokenCost/blob/master/tiktokencost/models.py' to your own model_config.json path, on line @34 - load_models()
 
-Here is a basic example of how to use TikTokenCost to estimate the cost of an input text with the GPT-3 model:
+After that, you're ready to go. Here is a basic example of how to use TikTokenCost to estimate the cost of an input text with the GPT-3 model:
 
 
 ```python
