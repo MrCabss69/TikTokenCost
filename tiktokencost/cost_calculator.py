@@ -2,7 +2,7 @@
 # CostCalculator 
 # This module provides functionality to estimate the cost of using OpenAI's API models based on the input text.
 # It uses tiktoken for token calculation and a model registry for pricing information.
-# Creado por: [@MrCaabs69]
+# Creado por: [@MrCabs69]
 # Fecha de creación: Thu Mar 07 2024
 
 from tiktokencost.models import model_registry

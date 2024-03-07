@@ -1,3 +1,6 @@
+# Creado por: [@MrCabs69]
+# Fecha de creación: Thu Mar 07 2024
+
 from setuptools import setup, find_packages
 
 setup(

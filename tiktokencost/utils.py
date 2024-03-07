@@ -1,3 +1,7 @@
+# Creado por: [@MrCabs69]
+# Fecha de creación: Thu Mar 07 2024
+
+
 import os 
 
 def extract_folder_texts(folder_path):

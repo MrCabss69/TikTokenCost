@@ -1,4 +1,4 @@
-# Creado por: [@MrCaabs69]
+# Creado por: [@MrCabs69]
 # Fecha de creación: Wed Mar 06 2024
 
 from tiktokencost.cost_calculator import CostCalculator
